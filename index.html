@@ -22,9 +22,9 @@ display: flex;
         /* justify-content: flex-start; this is the default - by default items will align starting at the left side of the page 
         justify-content: flex-end; aligns items from the right side of the page
         justify-content: center; aligns boxes to center
-        justify-content: space-between; does it's own automated margins to justify content*/
-        
         justify-content: space-around; /* creates margins between and around*/
+        justify-content: space-between; /* does it's own automated margins to justify content*/
+        
     }
 
     .container-1 div, .container-2 div{
@@ -48,7 +48,8 @@ display: flex;
     }
 
     .container-2-box{
-        width: 25%;
+        /* width: 25%; */
+        flex-basis: 25%; /*the flex box compatible way of setting a width*/
     }
 
 </style>
