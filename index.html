@@ -8,15 +8,16 @@
 </head>
 <body>
 <style>
+@media(min-width: 768px){
     .container-1{
-display: flex;
-/* align-items: flex-start; */
-/* align-items: flex-end; */
-/* align-items: center; */
-/* flex-direction: column; */
-
+    display: flex;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    
     }
-
+    
     .container-2{
         display: flex;
         /* justify-content: flex-start; this is the default - by default items will align starting at the left side of the page 
@@ -26,6 +27,9 @@ display: flex;
         justify-content: space-between; /* does it's own automated margins to justify content*/
         
     }
+
+}
+
 
     .container-1 div, .container-2 div{
     border: 1px #ccc solid;
@@ -84,3 +88,10 @@ display: flex;
     </div>
 </body>
 </html>
+
+<!-- 
+    Average Pixel sizes for device width
+Small (smaller than 640px)
+Medium (641px to 1007px)
+Large (1008px and larger) 
+-->
